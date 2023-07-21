@@ -39,7 +39,7 @@ class Solution:
 
         #TODO: Write code below to return a float with the solution to the prompt.
         # 250 mAh
-        return battcap * battcap / 2
+        return battcap * battcap / 250 / 2
 
 def main():
     battcap = int(input())
